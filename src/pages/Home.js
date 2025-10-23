@@ -1,15 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   const services = [
-    { name: 'Video Editing', icon: '🎥', description: 'Professional video editing services' },
-    { name: 'Digital Marketing', icon: '📈', description: 'Boost your online presence' },
-    { name: 'Web Development', icon: '💻', description: 'Custom websites and web apps' },
-    { name: 'App Development', icon: '📱', description: 'Mobile and desktop applications' },
-    { name: 'Photo Editing', icon: '📸', description: 'High-quality photo retouching' },
-    { name: 'SEO', icon: '🔍', description: 'Optimize for search engines' },
+    { name: t('home.services.videoEditing.name'), icon: '🎥', description: t('home.services.videoEditing.description') },
+    { name: t('home.services.digitalMarketing.name'), icon: '📈', description: t('home.services.digitalMarketing.description') },
+    { name: t('home.services.webDevelopment.name'), icon: '💻', description: t('home.services.webDevelopment.description') },
+    { name: t('home.services.appDevelopment.name'), icon: '📱', description: t('home.services.appDevelopment.description') },
+    { name: t('home.services.photoEditing.name'), icon: '📸', description: t('home.services.photoEditing.description') },
+    { name: t('home.services.seo.name'), icon: '🔍', description: t('home.services.seo.description') },
   ];
 
   return (
@@ -24,16 +27,16 @@ const Home = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to AgencyPro
+              {t('home.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              We provide cutting-edge digital solutions to help your business thrive in the modern world.
+              {t('home.hero.subtitle')}
             </p>
             <Link
               to="/contact"
               className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300"
             >
-              Get Started
+              {t('home.hero.cta')}
             </Link>
           </motion.div>
         </div>
@@ -49,10 +52,10 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              {t('home.services.title')}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive digital solutions tailored to your business needs.
+              {t('home.services.subtitle')}
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -75,7 +78,7 @@ const Home = () => {
               to="/services"
               className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300"
             >
-              View All Services
+              {t('home.services.viewAll')}
             </Link>
           </div>
         </div>
@@ -90,16 +93,16 @@ const Home = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Transform Your Business?
+              {t('home.cta.title')}
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Let's work together to create something amazing.
+              {t('home.cta.subtitle')}
             </p>
             <Link
               to="/contact"
               className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300"
             >
-              Contact Us Today
+              {t('home.cta.cta')}
             </Link>
           </motion.div>
         </div>

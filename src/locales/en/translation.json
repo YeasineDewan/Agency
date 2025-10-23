@@ -1,0 +1,268 @@
+{
+  "navbar": {
+    "brand": "AgencyPro",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "language": "বাংলা"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to AgencyPro",
+      "subtitle": "We provide cutting-edge digital solutions to help your business thrive in the modern world.",
+      "cta": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive digital solutions tailored to your business needs.",
+      "videoEditing": {
+        "name": "Video Editing",
+        "description": "Professional video editing services"
+      },
+      "digitalMarketing": {
+        "name": "Digital Marketing",
+        "description": "Boost your online presence"
+      },
+      "webDevelopment": {
+        "name": "Web Development",
+        "description": "Custom websites and web apps"
+      },
+      "appDevelopment": {
+        "name": "App Development",
+        "description": "Mobile and desktop applications"
+      },
+      "photoEditing": {
+        "name": "Photo Editing",
+        "description": "High-quality photo retouching"
+      },
+      "seo": {
+        "name": "SEO",
+        "description": "Optimize for search engines"
+      },
+      "viewAll": "View All Services"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "subtitle": "Let's work together to create something amazing.",
+      "cta": "Contact Us Today"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of digital services to help your business grow.",
+    "videoEditing": {
+      "name": "Video Editing",
+      "description": "Professional video editing services including cutting, color grading, sound design, and special effects.",
+      "features": {
+        "4kEditing": "4K Editing",
+        "colorCorrection": "Color Correction",
+        "soundDesign": "Sound Design",
+        "motionGraphics": "Motion Graphics"
+      }
+    },
+    "digitalMarketing": {
+      "name": "Digital Marketing",
+      "description": "Comprehensive digital marketing strategies to boost your online presence and drive growth.",
+      "features": {
+        "socialMedia": "Social Media Marketing",
+        "contentCreation": "Content Creation",
+        "ppcAdvertising": "PPC Advertising",
+        "emailMarketing": "Email Marketing"
+      }
+    },
+    "webDevelopment": {
+      "name": "Web Development",
+      "description": "Custom website development using modern technologies and best practices.",
+      "features": {
+        "responsiveDesign": "Responsive Design",
+        "ecommerce": "E-commerce",
+        "cmsIntegration": "CMS Integration",
+        "seoOptimization": "SEO Optimization"
+      }
+    },
+    "appDevelopment": {
+      "name": "App Development",
+      "description": "Native and cross-platform mobile app development for iOS and Android.",
+      "features": {
+        "iosDevelopment": "iOS Development",
+        "androidDevelopment": "Android Development",
+        "crossPlatform": "Cross-platform",
+        "uiuxDesign": "UI/UX Design"
+      }
+    },
+    "photoEditing": {
+      "name": "Photo Editing",
+      "description": "High-quality photo retouching and manipulation services for professional results.",
+      "features": {
+        "retouching": "Retouching",
+        "colorCorrection": "Color Correction",
+        "backgroundRemoval": "Background Removal",
+        "productPhotography": "Product Photography"
+      }
+    },
+    "seo": {
+      "name": "SEO",
+      "description": "Search engine optimization to improve your website's visibility and ranking.",
+      "features": {
+        "keywordResearch": "Keyword Research",
+        "onPageSeo": "On-page SEO",
+        "technicalSeo": "Technical SEO",
+        "localSeo": "Local SEO"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Contact us today to discuss your project and get a custom quote.",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About AgencyPro",
+      "subtitle": "We're a passionate team of digital experts dedicated to helping businesses thrive in the digital age."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 2013, AgencyPro started as a small team of creative professionals with a vision to revolutionize digital services. Over the years, we've grown into a full-service agency, helping hundreds of businesses achieve their digital goals.",
+      "paragraph2": "Our commitment to innovation, quality, and client satisfaction has been the driving force behind our success. We believe in building long-term partnerships and delivering exceptional results that exceed expectations.",
+      "paragraph3": "Today, we're proud to be leaders in video editing, digital marketing, web development, app development, photo editing, and SEO services."
+    },
+    "stats": {
+      "projectsCompleted": {
+        "number": "500+",
+        "label": "Projects Completed"
+      },
+      "happyClients": {
+        "number": "100+",
+        "label": "Happy Clients"
+      },
+      "yearsExperience": {
+        "number": "10+",
+        "label": "Years Experience"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Support"
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "johnDoe": {
+        "name": "John Doe",
+        "role": "CEO & Founder",
+        "bio": "Experienced leader with 10+ years in digital marketing and web development."
+      },
+      "janeSmith": {
+        "name": "Jane Smith",
+        "role": "Creative Director",
+        "bio": "Award-winning designer specializing in branding and user experience."
+      },
+      "mikeJohnson": {
+        "name": "Mike Johnson",
+        "role": "Lead Developer",
+        "bio": "Full-stack developer with expertise in modern web technologies."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "subtitle": "To empower businesses with innovative digital solutions that drive growth, enhance user experiences, and create lasting impact in the digital world.",
+      "values": {
+        "innovation": {
+          "title": "Innovation",
+          "description": "We stay ahead of the curve with cutting-edge technologies and creative solutions."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "We work closely with our clients to understand their needs and deliver tailored solutions."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "We strive for perfection in every project, ensuring the highest quality results."
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for your next project."
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Explore our latest projects and see how we've helped businesses achieve their goals.",
+    "categories": {
+      "all": "All",
+      "web": "Web Development",
+      "app": "App Design",
+      "video": "Video Editing",
+      "marketing": "Marketing",
+      "photo": "Photo Editing",
+      "seo": "SEO"
+    },
+    "projects": {
+      "ecommerceWebsite": {
+        "title": "E-commerce Website",
+        "description": "A modern e-commerce platform with advanced features."
+      },
+      "mobileAppUI": {
+        "title": "Mobile App UI",
+        "description": "Clean and intuitive mobile app design for a fitness tracker."
+      },
+      "brandVideo": {
+        "title": "Brand Video",
+        "description": "Cinematic brand video showcasing company values."
+      },
+      "socialMediaCampaign": {
+        "title": "Social Media Campaign",
+        "description": "Comprehensive social media strategy and content creation."
+      },
+      "productPhotography": {
+        "title": "Product Photography",
+        "description": "Professional product photography with retouching."
+      },
+      "seoOptimization": {
+        "title": "SEO Optimization",
+        "description": "Complete website optimization for search engines."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Let's create something amazing together. Contact us to discuss your ideas.",
+      "button": "Get in Touch"
+    }
+  },
+  "footer": {
+    "quickAccess": {
+      "title": "Quick Access",
+      "concernsProducts": "Our Concerns & Products",
+      "feedback": "Give Feedback",
+      "artists": "Artist/Model List",
+      "quotation": "Quotation Request",
+      "blogs": "Blogs",
+      "clients": "Our Clients",
+      "adScope": "Ad Scope Tool"
+    },
+    "knowMore": {
+      "title": "Know More",
+      "career": "Career",
+      "hiring": "Hiring",
+      "about": "About Us",
+      "community": "Community",
+      "privacy": "Privacy Policy",
+      "company": "Company Profile",
+      "terms": "Terms & Condition"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "address": "1st Floor, House: 21, Road: 3, Banani\nDOHS, Dhaka-1206, Bangladesh"
+    },
+    "certifications": {
+      "registeredMember": "Registered Member"
+    },
+    "social": {
+      "follow": "Follow"
+    },
+    "copyright": "© 2023 AgencyPro. All rights reserved."
+  }
+}

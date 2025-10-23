@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'bn' : 'en';
+    i18n.changeLanguage(newLang);
   };
 
   return (
@@ -15,27 +22,39 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              AgencyPro
+              {t('navbar.brand')}
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-blue-600 transition duration-300">
-              Home
+              {t('navbar.home')}
             </Link>
             <Link to="/services" className="text-gray-700 hover:text-blue-600 transition duration-300">
-              Services
+              {t('navbar.services')}
             </Link>
             <Link to="/about" className="text-gray-700 hover:text-blue-600 transition duration-300">
-              About
+              {t('navbar.about')}
             </Link>
             <Link to="/portfolio" className="text-gray-700 hover:text-blue-600 transition duration-300">
-              Portfolio
+              {t('navbar.portfolio')}
             </Link>
             <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition duration-300">
-              Contact
+              {t('navbar.contact')}
             </Link>
+            <button
+              onClick={toggleLanguage}
+              className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300 font-semibold"
+            >
+              {t('navbar.language')}
+            </button>
           </div>
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center space-x-4">
+            <button
+              onClick={toggleLanguage}
+              className="bg-blue-600 text-white px-3 py-1 rounded-full hover:bg-blue-700 transition duration-300 text-sm font-semibold"
+            >
+              {t('navbar.language')}
+            </button>
             <button
               onClick={toggleMenu}
               className="text-gray-700 hover:text-blue-600 focus:outline-none"
@@ -56,19 +75,19 @@ const Navbar = () => {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
-              Home
+              {t('navbar.home')}
             </Link>
             <Link to="/services" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
-              Services
+              {t('navbar.services')}
             </Link>
             <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
-              About
+              {t('navbar.about')}
             </Link>
             <Link to="/portfolio" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
-              Portfolio
+              {t('navbar.portfolio')}
             </Link>
             <Link to="/contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition duration-300">
-              Contact
+              {t('navbar.contact')}
             </Link>
           </div>
         </motion.div>

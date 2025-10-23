@@ -1,68 +1,70 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
+  const { t } = useTranslation();
   const [filter, setFilter] = useState('all');
 
   const projects = [
     {
       id: 1,
-      title: 'E-commerce Website',
+      title: t('portfolio.projects.ecommerceWebsite.title'),
       category: 'web',
       image: 'https://via.placeholder.com/400x300',
-      description: 'A modern e-commerce platform with advanced features.',
+      description: t('portfolio.projects.ecommerceWebsite.description'),
       technologies: ['React', 'Node.js', 'MongoDB']
     },
     {
       id: 2,
-      title: 'Mobile App UI',
+      title: t('portfolio.projects.mobileAppUI.title'),
       category: 'app',
       image: 'https://via.placeholder.com/400x300',
-      description: 'Clean and intuitive mobile app design for a fitness tracker.',
+      description: t('portfolio.projects.mobileAppUI.description'),
       technologies: ['Figma', 'Adobe XD', 'Sketch']
     },
     {
       id: 3,
-      title: 'Brand Video',
+      title: t('portfolio.projects.brandVideo.title'),
       category: 'video',
       image: 'https://via.placeholder.com/400x300',
-      description: 'Cinematic brand video showcasing company values.',
+      description: t('portfolio.projects.brandVideo.description'),
       technologies: ['Adobe Premiere', 'After Effects', 'Cinema 4D']
     },
     {
       id: 4,
-      title: 'Social Media Campaign',
+      title: t('portfolio.projects.socialMediaCampaign.title'),
       category: 'marketing',
       image: 'https://via.placeholder.com/400x300',
-      description: 'Comprehensive social media strategy and content creation.',
+      description: t('portfolio.projects.socialMediaCampaign.description'),
       technologies: ['Canva', 'Hootsuite', 'Analytics']
     },
     {
       id: 5,
-      title: 'Product Photography',
+      title: t('portfolio.projects.productPhotography.title'),
       category: 'photo',
       image: 'https://via.placeholder.com/400x300',
-      description: 'Professional product photography with retouching.',
+      description: t('portfolio.projects.productPhotography.description'),
       technologies: ['Photoshop', 'Lightroom', 'Studio Lighting']
     },
     {
       id: 6,
-      title: 'SEO Optimization',
+      title: t('portfolio.projects.seoOptimization.title'),
       category: 'seo',
       image: 'https://via.placeholder.com/400x300',
-      description: 'Complete website optimization for search engines.',
+      description: t('portfolio.projects.seoOptimization.description'),
       technologies: ['Google Analytics', 'SEMrush', 'Schema Markup']
     },
   ];
 
   const categories = [
-    { id: 'all', name: 'All' },
-    { id: 'web', name: 'Web Development' },
-    { id: 'app', name: 'App Design' },
-    { id: 'video', name: 'Video Editing' },
-    { id: 'marketing', name: 'Marketing' },
-    { id: 'photo', name: 'Photo Editing' },
-    { id: 'seo', name: 'SEO' },
+    { id: 'all', name: t('portfolio.categories.all') },
+    { id: 'web', name: t('portfolio.categories.web') },
+    { id: 'app', name: t('portfolio.categories.app') },
+    { id: 'video', name: t('portfolio.categories.video') },
+    { id: 'marketing', name: t('portfolio.categories.marketing') },
+    { id: 'photo', name: t('portfolio.categories.photo') },
+    { id: 'seo', name: t('portfolio.categories.seo') },
   ];
 
   const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.category === filter);
@@ -77,10 +79,10 @@ const Portfolio = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Our Portfolio
+            {t('portfolio.title')}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our latest projects and see how we've helped businesses achieve their goals.
+            {t('portfolio.subtitle')}
           </p>
         </motion.div>
 
@@ -152,13 +154,13 @@ const Portfolio = () => {
           className="text-center mt-16"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Start Your Project?
+            {t('portfolio.cta.title')}
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Let's create something amazing together. Contact us to discuss your ideas.
+            {t('portfolio.cta.subtitle')}
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">
-            Get in Touch
+            {t('portfolio.cta.button')}
           </button>
         </motion.div>
       </div>
