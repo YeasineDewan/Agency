@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaPlay, FaPause, FaExpand, FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
+=======
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
 
 const Home = () => {
   const { t } = useTranslation();
@@ -67,6 +74,7 @@ const Home = () => {
     },
   ];
 
+<<<<<<< HEAD
   // Sample data for service showcases
   const photoEditingSamples = [
     {
@@ -150,6 +158,12 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-primary via-secondary to-accent text-white py-32 overflow-hidden">
+=======
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-r from-blue-600 via-purple-700 to-indigo-800 text-white py-32 overflow-hidden">
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -167,13 +181,21 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 to="/contact"
+<<<<<<< HEAD
                 className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-light transition duration-300 shadow-lg"
+=======
+                className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition duration-300 shadow-lg"
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               >
                 {t('home.hero.cta')}
               </Link>
               <Link
                 to="/portfolio"
+<<<<<<< HEAD
                 className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition duration-300"
+=======
+                className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition duration-300"
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               >
                 View Our Work
               </Link>
@@ -199,7 +221,11 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
+<<<<<<< HEAD
                 <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{stat.number}</div>
+=======
+                <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">{stat.number}</div>
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
                 <div className="text-gray-600 font-medium">{stat.label}</div>
               </motion.div>
             ))}
@@ -230,6 +256,7 @@ const Home = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.15 }}
+<<<<<<< HEAD
                 className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 group"
               >
                 <div className="text-6xl mb-6 text-center group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
@@ -243,13 +270,24 @@ const Home = () => {
                     Learn More <FaArrowRight className="ml-2" />
                   </Link>
                 </div>
+=======
+                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+              >
+                <div className="text-6xl mb-6 text-center">{service.icon}</div>
+                <h3 className="text-2xl font-bold mb-4 text-center">{service.name}</h3>
+                <p className="text-gray-600 text-center leading-relaxed">{service.description}</p>
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               </motion.div>
             ))}
           </div>
           <div className="text-center mt-12">
             <Link
               to="/services"
+<<<<<<< HEAD
               className="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-secondary transition duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+=======
+              className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition duration-300 shadow-lg"
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
             >
               {t('home.services.viewAll')}
             </Link>
@@ -257,6 +295,7 @@ const Home = () => {
         </div>
       </section>
 
+<<<<<<< HEAD
       {/* Photo Editing Showcase */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -460,6 +499,8 @@ const Home = () => {
         </div>
       </section>
 
+=======
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -529,6 +570,7 @@ const Home = () => {
         </div>
       </section>
 
+<<<<<<< HEAD
       {/* Advanced Call to Action */}
       <section className="relative py-24 bg-gradient-to-r from-primary via-secondary to-accent text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -593,6 +635,28 @@ const Home = () => {
               <h3 className="text-xl font-bold mb-2">Results Driven</h3>
               <p className="opacity-90">Strategies that deliver measurable business growth</p>
             </div>
+=======
+      {/* Call to Action */}
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              {t('home.cta.title')}
+            </h2>
+            <p className="text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
+              {t('home.cta.subtitle')}
+            </p>
+            <Link
+              to="/contact"
+              className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition duration-300 shadow-lg"
+            >
+              {t('home.cta.cta')}
+            </Link>
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
           </motion.div>
         </div>
       </section>

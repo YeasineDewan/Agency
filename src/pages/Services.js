@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
 
 const Services = () => {
   const { t } = useTranslation();
@@ -99,6 +102,7 @@ const Services = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
+<<<<<<< HEAD
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 group overflow-hidden"
             >
               <div className="relative">
@@ -120,6 +124,21 @@ const Services = () => {
                   More Details
                 </button>
               </Link>
+=======
+              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+            >
+              <div className="text-5xl mb-4">{service.icon}</div>
+              <h3 className="text-2xl font-semibold mb-4">{service.name}</h3>
+              <p className="text-gray-600 mb-6">{service.description}</p>
+              <ul className="space-y-2">
+                {service.features.map((feature, featureIndex) => (
+                  <li key={featureIndex} className="flex items-center text-gray-700">
+                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
             </motion.div>
           ))}
         </div>

@@ -15,11 +15,19 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">{t('footer.quickAccess.title')}</h3>
             <ul className="space-y-3">
+<<<<<<< HEAD
               <li><Link to="/concerns-products" className="text-gray-300 hover:text-white transition duration-300">Concerns & Products</Link></li>
               <li><Link to="/give-feedback" className="text-gray-300 hover:text-white transition duration-300">Give Feedback</Link></li>
               <li><Link to="/artist-model-list" className="text-gray-300 hover:text-white transition duration-300">Artists & Models</Link></li>
               <li><Link to="/quotation-request" className="text-gray-300 hover:text-white transition duration-300">Request Quote</Link></li>
               <li><Link to="/blogs" className="text-gray-300 hover:text-white transition duration-300">Blog</Link></li>
+=======
+              <li><Link to="/concerns-products" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.concernsProducts')}</Link></li>
+              <li><Link to="/feedback" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.feedback')}</Link></li>
+              <li><Link to="/artists" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.artists')}</Link></li>
+              <li><Link to="/quotation" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.quotation')}</Link></li>
+              <li><Link to="/blogs" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.blogs')}</Link></li>
+>>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               <li><Link to="/clients" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.clients')}</Link></li>
               <li><Link to="/ad-scope" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.adScope')}</Link></li>
             </ul>
