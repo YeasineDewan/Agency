@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { FaPlay, FaPause, FaExpand, FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
-=======
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
+import { FaPlay, FaPause, FaExpand, FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -181,21 +174,15 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 to="/contact"
-<<<<<<< HEAD
                 className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-light transition duration-300 shadow-lg"
-=======
                 className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition duration-300 shadow-lg"
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               >
                 {t('home.hero.cta')}
               </Link>
               <Link
                 to="/portfolio"
-<<<<<<< HEAD
                 className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition duration-300"
-=======
                 className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-blue-600 transition duration-300"
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
               >
                 View Our Work
               </Link>

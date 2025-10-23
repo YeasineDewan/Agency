@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TODO: Build Professional Pages for Footer "Know More" Section
 
 ## Overview
@@ -14,11 +13,6 @@ Create advanced, professional pages for Career, Hiring, About Us, Community, Pri
 - [x] Update translation.json (en and bn) with keys for new pages
 - [x] Test pages for responsiveness and performance (development server started)
 - [x] Ensure footer links navigate correctly (routes added to App.js)
-=======
-# TODO: Make Project Multilingual (English and Bangla)
-
-## Steps to Complete
-
 - [x] Install react-i18next and i18next dependencies
 - [x] Create i18n configuration file (src/i18n/index.js)
 - [x] Create English translation file (src/locales/en/translation.json)
@@ -35,4 +29,3 @@ Create advanced, professional pages for Career, Hiring, About Us, Community, Pri
 - [ ] Add advanced features: Persist language in localStorage, language context
 - [ ] Test the app: Run npm start and verify language switching
 - [ ] Final verification: Ensure all text is translated and button toggles correctly
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f

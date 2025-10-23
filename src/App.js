@@ -9,7 +9,6 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-<<<<<<< HEAD
 import ConcernsProducts from './pages/ConcernsProducts';
 import GiveFeedback from './pages/GiveFeedback';
 import ArtistModelList from './pages/ArtistModelList';
@@ -24,8 +23,6 @@ import Community from './pages/Community';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import CompanyProfile from './pages/CompanyProfile';
 import TermsCondition from './pages/TermsCondition';
-=======
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
 
 function App() {
   return (
@@ -40,7 +37,6 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
-<<<<<<< HEAD
               <Route path="/concerns-products" element={<ConcernsProducts />} />
               <Route path="/give-feedback" element={<GiveFeedback />} />
               <Route path="/artist-model-list" element={<ArtistModelList />} />
@@ -55,8 +51,6 @@ function App() {
               <Route path="/privacy" element={<PrivacyPolicy />} />
               <Route path="/company" element={<CompanyProfile />} />
               <Route path="/terms" element={<TermsCondition />} />
-=======
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
             </Routes>
           </main>
           <Footer />
