@@ -1,0 +1,558 @@
+{
+  "navbar": {
+    "brand": "AgencyPro",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "language": "বাংলা"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to AgencyPro",
+      "subtitle": "We provide cutting-edge digital solutions to help your business thrive in the modern world.",
+      "cta": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive digital solutions tailored to your business needs.",
+      "videoEditing": {
+        "name": "Video Editing",
+        "description": "Professional video editing services"
+      },
+      "digitalMarketing": {
+        "name": "Digital Marketing",
+        "description": "Boost your online presence"
+      },
+      "webDevelopment": {
+        "name": "Web Development",
+        "description": "Custom websites and web apps"
+      },
+      "appDevelopment": {
+        "name": "App Development",
+        "description": "Mobile and desktop applications"
+      },
+      "photoEditing": {
+        "name": "Photo Editing",
+        "description": "High-quality photo retouching"
+      },
+      "seo": {
+        "name": "SEO",
+        "description": "Optimize for search engines"
+      },
+      "viewAll": "View All Services"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "subtitle": "Let's work together to create something amazing.",
+      "cta": "Contact Us Today"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of digital services to help your business grow.",
+    "videoEditing": {
+      "name": "Video Editing",
+      "description": "Professional video editing services including cutting, color grading, sound design, and special effects.",
+      "features": {
+        "4kEditing": "4K Editing",
+        "colorCorrection": "Color Correction",
+        "soundDesign": "Sound Design",
+        "motionGraphics": "Motion Graphics"
+      }
+    },
+    "digitalMarketing": {
+      "name": "Digital Marketing",
+      "description": "Comprehensive digital marketing strategies to boost your online presence and drive growth.",
+      "features": {
+        "socialMedia": "Social Media Marketing",
+        "contentCreation": "Content Creation",
+        "ppcAdvertising": "PPC Advertising",
+        "emailMarketing": "Email Marketing"
+      }
+    },
+    "webDevelopment": {
+      "name": "Web Development",
+      "description": "Custom website development using modern technologies and best practices.",
+      "features": {
+        "responsiveDesign": "Responsive Design",
+        "ecommerce": "E-commerce",
+        "cmsIntegration": "CMS Integration",
+        "seoOptimization": "SEO Optimization"
+      }
+    },
+    "appDevelopment": {
+      "name": "App Development",
+      "description": "Native and cross-platform mobile app development for iOS and Android.",
+      "features": {
+        "iosDevelopment": "iOS Development",
+        "androidDevelopment": "Android Development",
+        "crossPlatform": "Cross-platform",
+        "uiuxDesign": "UI/UX Design"
+      }
+    },
+    "photoEditing": {
+      "name": "Photo Editing",
+      "description": "High-quality photo retouching and manipulation services for professional results.",
+      "features": {
+        "retouching": "Retouching",
+        "colorCorrection": "Color Correction",
+        "backgroundRemoval": "Background Removal",
+        "productPhotography": "Product Photography"
+      }
+    },
+    "seo": {
+      "name": "SEO",
+      "description": "Search engine optimization to improve your website's visibility and ranking.",
+      "features": {
+        "keywordResearch": "Keyword Research",
+        "onPageSeo": "On-page SEO",
+        "technicalSeo": "Technical SEO",
+        "localSeo": "Local SEO"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Contact us today to discuss your project and get a custom quote.",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About AgencyPro",
+      "subtitle": "We're a passionate team of digital experts dedicated to helping businesses thrive in the digital age."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 2013, AgencyPro started as a small team of creative professionals with a vision to revolutionize digital services. Over the years, we've grown into a full-service agency, helping hundreds of businesses achieve their digital goals.",
+      "paragraph2": "Our commitment to innovation, quality, and client satisfaction has been the driving force behind our success. We believe in building long-term partnerships and delivering exceptional results that exceed expectations.",
+      "paragraph3": "Today, we're proud to be leaders in video editing, digital marketing, web development, app development, photo editing, and SEO services."
+    },
+    "stats": {
+      "projectsCompleted": {
+        "number": "500+",
+        "label": "Projects Completed"
+      },
+      "happyClients": {
+        "number": "100+",
+        "label": "Happy Clients"
+      },
+      "yearsExperience": {
+        "number": "10+",
+        "label": "Years Experience"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Support"
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "johnDoe": {
+        "name": "John Doe",
+        "role": "CEO & Founder",
+        "bio": "Experienced leader with 10+ years in digital marketing and web development."
+      },
+      "janeSmith": {
+        "name": "Jane Smith",
+        "role": "Creative Director",
+        "bio": "Award-winning designer specializing in branding and user experience."
+      },
+      "mikeJohnson": {
+        "name": "Mike Johnson",
+        "role": "Lead Developer",
+        "bio": "Full-stack developer with expertise in modern web technologies."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "subtitle": "To empower businesses with innovative digital solutions that drive growth, enhance user experiences, and create lasting impact in the digital world.",
+      "values": {
+        "innovation": {
+          "title": "Innovation",
+          "description": "We stay ahead of the curve with cutting-edge technologies and creative solutions."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "We work closely with our clients to understand their needs and deliver tailored solutions."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "We strive for perfection in every project, ensuring the highest quality results."
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for your next project."
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Explore our latest projects and see how we've helped businesses achieve their goals.",
+    "categories": {
+      "all": "All",
+      "web": "Web Development",
+      "app": "App Design",
+      "video": "Video Editing",
+      "marketing": "Marketing",
+      "photo": "Photo Editing",
+      "seo": "SEO"
+    },
+    "projects": {
+      "ecommerceWebsite": {
+        "title": "E-commerce Website",
+        "description": "A modern e-commerce platform with advanced features."
+      },
+      "mobileAppUI": {
+        "title": "Mobile App UI",
+        "description": "Clean and intuitive mobile app design for a fitness tracker."
+      },
+      "brandVideo": {
+        "title": "Brand Video",
+        "description": "Cinematic brand video showcasing company values."
+      },
+      "socialMediaCampaign": {
+        "title": "Social Media Campaign",
+        "description": "Comprehensive social media strategy and content creation."
+      },
+      "productPhotography": {
+        "title": "Product Photography",
+        "description": "Professional product photography with retouching."
+      },
+      "seoOptimization": {
+        "title": "SEO Optimization",
+        "description": "Complete website optimization for search engines."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Let's create something amazing together. Contact us to discuss your ideas.",
+      "button": "Get in Touch"
+    }
+  },
+  "footer": {
+    "quickAccess": {
+      "title": "Quick Access",
+      "concernsProducts": "Our Concerns & Products",
+      "feedback": "Give Feedback",
+      "artists": "Artist/Model List",
+      "quotation": "Quotation Request",
+      "blogs": "Blogs",
+      "clients": "Our Clients",
+      "adScope": "Ad Scope Tool"
+    },
+    "knowMore": {
+      "title": "Know More",
+      "career": "Career",
+      "hiring": "Hiring",
+      "about": "About Us",
+      "community": "Community",
+      "privacy": "Privacy Policy",
+      "company": "Company Profile",
+      "terms": "Terms & Condition"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "address": "1st Floor, House: 21, Road: 3, Banani\nDOHS, Dhaka-1206, Bangladesh"
+    },
+    "certifications": {
+      "registeredMember": "Registered Member"
+    },
+    "social": {
+      "follow": "Follow"
+    },
+    "copyright": "© 2023 AgencyPro. All rights reserved."
+  },
+  "career": {
+    "hero": {
+      "title": "Join Our Team",
+      "subtitle": "Shape the future of digital innovation with us. We're looking for passionate individuals ready to make an impact."
+    },
+    "whyJoin": {
+      "title": "Why Join AgencyPro?",
+      "benefits": [
+        {
+          "title": "Innovation Culture",
+          "description": "Work in an environment that encourages creativity and cutting-edge solutions."
+        },
+        {
+          "title": "Growth Opportunities",
+          "description": "Continuous learning and career advancement opportunities."
+        },
+        {
+          "title": "Work-Life Balance",
+          "description": "Flexible working hours and remote work options."
+        },
+        {
+          "title": "Competitive Compensation",
+          "description": "Attractive salary packages and comprehensive benefits."
+        }
+      ]
+    },
+    "openPositions": {
+      "title": "Open Positions",
+      "positions": [
+        {
+          "title": "Senior Web Developer",
+          "location": "Dhaka, Bangladesh",
+          "type": "Full-time",
+          "description": "Looking for an experienced web developer to lead our development team."
+        },
+        {
+          "title": "Digital Marketing Specialist",
+          "location": "Dhaka, Bangladesh",
+          "type": "Full-time",
+          "description": "Drive digital marketing campaigns and strategies for our clients."
+        },
+        {
+          "title": "UI/UX Designer",
+          "location": "Dhaka, Bangladesh",
+          "type": "Full-time",
+          "description": "Create stunning user interfaces and experiences for web and mobile applications."
+        }
+      ],
+      "apply": "Apply Now"
+    },
+    "culture": {
+      "title": "Our Culture",
+      "description": "At AgencyPro, we foster a collaborative and inclusive environment where every team member can thrive and contribute to our shared success."
+    },
+    "cta": {
+      "title": "Ready to Join Us?",
+      "subtitle": "Send us your resume and let's start a conversation about your future with AgencyPro.",
+      "button": "Apply Today"
+    }
+  },
+  "hiring": {
+    "hero": {
+      "title": "We're Hiring!",
+      "subtitle": "Exciting opportunities await talented individuals ready to innovate and grow with us."
+    },
+    "process": {
+      "title": "Our Hiring Process",
+      "steps": [
+        {
+          "title": "Application Review",
+          "description": "We carefully review each application to find the best fit for our team."
+        },
+        {
+          "title": "Initial Interview",
+          "description": "A conversation to learn more about you and your experience."
+        },
+        {
+          "title": "Technical Assessment",
+          "description": "Demonstrate your skills through practical exercises or tests."
+        },
+        {
+          "title": "Final Interview",
+          "description": "Meet with team members and discuss your potential role."
+        },
+        {
+          "title": "Offer",
+          "description": "We make an offer and welcome you to the team!"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "What We Offer",
+      "items": [
+        "Competitive salary and bonuses",
+        "Health insurance and wellness programs",
+        "Professional development opportunities",
+        "Flexible work arrangements",
+        "Modern office with latest technology",
+        "Team building activities and events"
+      ]
+    },
+    "cta": {
+      "title": "Apply Now",
+      "subtitle": "Don't miss out on these exciting opportunities. Submit your application today!",
+      "button": "View Open Positions"
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Our Community",
+      "subtitle": "Building connections, sharing knowledge, and making a positive impact together."
+    },
+    "initiatives": {
+      "title": "Community Initiatives",
+      "items": [
+        {
+          "title": "Tech Workshops",
+          "description": "Regular workshops on emerging technologies and best practices."
+        },
+        {
+          "title": "Open Source Contributions",
+          "description": "Contributing to open source projects and supporting the developer community."
+        },
+        {
+          "title": "Mentorship Program",
+          "description": "Guiding aspiring professionals in their career journeys."
+        },
+        {
+          "title": "Industry Partnerships",
+          "description": "Collaborating with other companies and organizations for mutual growth."
+        }
+      ]
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "events": [
+        {
+          "title": "Digital Marketing Summit",
+          "date": "March 15, 2024",
+          "description": "A day of insights and networking in digital marketing."
+        },
+        {
+          "title": "Web Development Bootcamp",
+          "date": "April 20, 2024",
+          "description": "Intensive training program for aspiring web developers."
+        }
+      ]
+    },
+    "join": {
+      "title": "Join Our Community",
+      "description": "Connect with like-minded professionals and be part of something bigger.",
+      "button": "Get Involved"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 1, 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy describes how AgencyPro collects, uses, and protects your personal information when you use our services."
+    },
+    "informationWeCollect": {
+      "title": "Information We Collect",
+      "content": "We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support."
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+    },
+    "dataSharing": {
+      "title": "Data Sharing and Disclosure",
+      "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "You have the right to access, update, or delete your personal information. Contact us to exercise these rights."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at privacy@agencypro.com."
+    }
+  },
+  "company": {
+    "hero": {
+      "title": "Company Profile",
+      "subtitle": "Leading digital agency delivering innovative solutions since 2013."
+    },
+    "overview": {
+      "title": "Company Overview",
+      "content": "AgencyPro is a full-service digital agency specializing in web development, digital marketing, video editing, and more. We help businesses thrive in the digital world."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower businesses with innovative digital solutions that drive growth and create lasting impact."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the leading digital agency globally, known for excellence, innovation, and client satisfaction."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Innovation",
+          "description": "We embrace new technologies and creative solutions."
+        },
+        {
+          "title": "Excellence",
+          "description": "We strive for the highest quality in everything we do."
+        },
+        {
+          "title": "Collaboration",
+          "description": "We work together with our clients and team members."
+        },
+        {
+          "title": "Integrity",
+          "description": "We conduct business with honesty and transparency."
+        }
+      ]
+    },
+    "team": {
+      "title": "Leadership Team",
+      "members": [
+        {
+          "name": "John Doe",
+          "position": "CEO & Founder",
+          "bio": "Experienced leader with 10+ years in digital marketing."
+        },
+        {
+          "name": "Jane Smith",
+          "position": "Creative Director",
+          "bio": "Award-winning designer specializing in branding."
+        },
+        {
+          "name": "Mike Johnson",
+          "position": "Lead Developer",
+          "bio": "Full-stack developer with expertise in modern technologies."
+        }
+      ]
+    },
+    "achievements": {
+      "title": "Achievements",
+      "items": [
+        "500+ successful projects",
+        "100+ satisfied clients",
+        "10+ years of experience",
+        "BASIS registered member"
+      ]
+    }
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: January 1, 2024",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using AgencyPro's services, you accept and agree to be bound by the terms and provision of this agreement."
+    },
+    "services": {
+      "title": "Services",
+      "content": "AgencyPro provides digital marketing, web development, video editing, and related services as described on our website."
+    },
+    "userResponsibilities": {
+      "title": "User Responsibilities",
+      "content": "You agree to provide accurate information and use our services in compliance with applicable laws and regulations."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All content, features, and functionality of our services are owned by AgencyPro and are protected by copyright and other intellectual property laws."
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "AgencyPro shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of our services."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "Either party may terminate this agreement at any time with or without cause."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "This agreement shall be governed by and construed in accordance with the laws of Bangladesh."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "For questions about these Terms & Conditions, please contact us at legal@agencypro.com."
+    }
+  }
+}
