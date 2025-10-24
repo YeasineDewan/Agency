@@ -11,6 +11,7 @@ const Services = () => {
       name: t('services.videoEditing.name'),
       icon: '🎥',
       description: t('services.videoEditing.description'),
+      route: '/services/video-editing',
       features: [
         t('services.videoEditing.features.4kEditing'),
         t('services.videoEditing.features.colorCorrection'),
@@ -22,6 +23,7 @@ const Services = () => {
       name: t('services.digitalMarketing.name'),
       icon: '📈',
       description: t('services.digitalMarketing.description'),
+      route: '/services/social-media',
       features: [
         t('services.digitalMarketing.features.socialMedia'),
         t('services.digitalMarketing.features.contentCreation'),
@@ -33,6 +35,7 @@ const Services = () => {
       name: t('services.webDevelopment.name'),
       icon: '💻',
       description: t('services.webDevelopment.description'),
+      route: '/services/web-development',
       features: [
         t('services.webDevelopment.features.responsiveDesign'),
         t('services.webDevelopment.features.ecommerce'),
@@ -44,6 +47,7 @@ const Services = () => {
       name: t('services.appDevelopment.name'),
       icon: '📱',
       description: t('services.appDevelopment.description'),
+      route: '/services/app-development',
       features: [
         t('services.appDevelopment.features.iosDevelopment'),
         t('services.appDevelopment.features.androidDevelopment'),
@@ -55,6 +59,7 @@ const Services = () => {
       name: t('services.photoEditing.name'),
       icon: '📸',
       description: t('services.photoEditing.description'),
+      route: '/services/photo-editing',
       features: [
         t('services.photoEditing.features.retouching'),
         t('services.photoEditing.features.colorCorrection'),
@@ -66,6 +71,7 @@ const Services = () => {
       name: t('services.seo.name'),
       icon: '🔍',
       description: t('services.seo.description'),
+      route: '/services/seo',
       features: [
         t('services.seo.features.keywordResearch'),
         t('services.seo.features.onPageSeo'),
@@ -115,24 +121,11 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-              <Link to={`/services/${service.name.toLowerCase().replace(/\s+/g, '-')}`} className="block">
+              <Link to={service.route} className="block">
                 <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                   More Details
                 </button>
               </Link>
-              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
-                >
-              <div className="text-5xl mb-4">{service.icon}</div>
-              <h3 className="text-2xl font-semibold mb-4">{service.name}</h3>
-              <p className="text-gray-600 mb-6">{service.description}</p>
-              <ul className="space-y-2">
-                {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center text-gray-700">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
             </motion.div>
           ))}
         </div>
@@ -149,9 +142,11 @@ const Services = () => {
           <p className="text-lg text-gray-600 mb-8">
             {t('services.cta.subtitle')}
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">
-            {t('services.cta.button')}
-          </button>
+          <Link to="/contact">
+            <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">
+              {t('services.cta.button')}
+            </button>
+          </Link>
         </motion.div>
       </div>
     </div>

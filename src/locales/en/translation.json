@@ -264,7 +264,6 @@
       "follow": "Follow"
     },
     "copyright": "© 2023 AgencyPro. All rights reserved."
-<<<<<<< HEAD
   },
   "career": {
     "hero": {
@@ -555,7 +554,5 @@
       "title": "Contact Information",
       "content": "For questions about these Terms & Conditions, please contact us at legal@agencypro.com."
     }
-=======
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
   }
 }

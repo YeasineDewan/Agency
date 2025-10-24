@@ -14,12 +14,12 @@ const Footer = () => {
           {/* Quick Access Section */}
           <div>
             <h3 className="text-xl font-bold mb-6">{t('footer.quickAccess.title')}</h3>
-            <ul className="space-y-3">
-              <li><Link to="/concerns-products" className="text-gray-300 hover:text-white transition duration-300">Concerns & Products</Link></li>
-              <li><Link to="/give-feedback" className="text-gray-300 hover:text-white transition duration-300">Give Feedback</Link></li>
-              <li><Link to="/artist-model-list" className="text-gray-300 hover:text-white transition duration-300">Artists & Models</Link></li>
-              <li><Link to="/quotation-request" className="text-gray-300 hover:text-white transition duration-300">Request Quote</Link></li>
-              <li><Link to="/blogs" className="text-gray-300 hover:text-white transition duration-300">Blog</Link></li>
+             <ul className="space-y-3">
+              <li><Link to="/concerns-products" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.concernsProducts')}</Link></li>
+              <li><Link to="/give-feedback" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.giveFeedback')}</Link></li>
+              <li><Link to="/artist-model-list" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.artists')}</Link></li>
+              <li><Link to="/quotation-request" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.quotation')}</Link></li>
+              <li><Link to="/blogs" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.blogs')}</Link></li>
               <li><Link to="/clients" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.clients')}</Link></li>
               <li><Link to="/ad-scope" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.adScope')}</Link></li>
             </ul>
@@ -87,15 +87,15 @@ const Footer = () => {
 
           <div className="flex flex-col md:items-end">
             <div className="flex flex-wrap gap-2 mb-4">
-              <a href="#" className="block">
+              <button className="block">
                 <img src="/images/pay-bill.png" alt="Pay Bill" className="h-10" />
-              </a>
-              <a href="#" className="block">
+              </button>
+              <button className="block">
                 <img src="/images/google-play.png" alt="Google Play" className="h-10" />
-              </a>
-              <a href="#" className="block">
+              </button>
+              <button className="block">
                 <img src="/images/windows.png" alt="Windows" className="h-10" />
-              </a>
+              </button>
             </div>
 
             <div className="mt-4">
@@ -109,30 +109,30 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <p className="text-gray-400 font-medium">{t('footer.social.follow')}:</p>
             <div className="flex space-x-4 mt-3">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaFacebookF size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaLinkedinIn size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaInstagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaTwitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaYoutube size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <FaTiktok size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <SiSoundcloud size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">
                 <SiFlickr size={20} />
-              </a>
+              </button>
             </div>
           </div>
         </div>

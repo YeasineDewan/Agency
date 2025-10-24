@@ -18,6 +18,8 @@ import SEOServiceDetails from './pages/SEOServiceDetails';
 import VideoEditingDetails from './pages/VideoEditingDetails';
 import WebDevelopmentDetails from './pages/WebDevelopmentDetails';
 import SocialMediaDetails from './pages/SocialMediaDetails';
+import AppDevelopmentDetails from './pages/AppDevelopmentDetails';
+import PhotoEditingDetails from './pages/PhotoEditingDetails';
 import Career from './pages/Career';
 import Community from './pages/Community';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -46,6 +48,8 @@ function App() {
               <Route path="/services/video-editing" element={<VideoEditingDetails />} />
               <Route path="/services/web-development" element={<WebDevelopmentDetails />} />
               <Route path="/services/social-media" element={<SocialMediaDetails />} />
+              <Route path="/services/app-development" element={<AppDevelopmentDetails />} />
+              <Route path="/services/photo-editing" element={<PhotoEditingDetails />} />
               <Route path="/career" element={<Career />} />
               <Route path="/community" element={<Community />} />
               <Route path="/privacy" element={<PrivacyPolicy />} />

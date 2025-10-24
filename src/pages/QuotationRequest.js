@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
 
 const QuotationRequest = () => {
-  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',

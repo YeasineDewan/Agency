@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
@@ -12,8 +12,13 @@ const Navbar = () => {
   };
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'bn' : 'en';
-    i18n.changeLanguage(newLang);
+    // Guard against missing i18n
+    if (i18n && typeof i18n.changeLanguage === 'function') {
+      const newLang = (i18n.language === 'en' ? 'bn' : 'en');
+      i18n.changeLanguage(newLang);
+    } else {
+      console.warn('i18n not ready yet');
+    }
   };
 
   return (
@@ -53,7 +58,7 @@ const Navbar = () => {
               onClick={toggleLanguage}
               className="bg-secondary text-white px-3 py-1 rounded-full hover:bg-accent transition duration-300 text-sm font-semibold"
             >
-              {t('navbar.language')}
+              {t ? t('navbar.language') : 'EN/BN'}
             </button>
             <button
               onClick={toggleMenu}
@@ -66,32 +71,65 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          className="md:hidden bg-primary shadow-lg"
-        >
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block px-3 py-2 text-white hover:text-light transition duration-300">
-              {t('navbar.home')}
-            </Link>
-            <Link to="/services" className="block px-3 py-2 text-white hover:text-light transition duration-300">
-              {t('navbar.services')}
-            </Link>
-            <Link to="/about" className="block px-3 py-2 text-white hover:text-light transition duration-300">
-              {t('navbar.about')}
-            </Link>
-            <Link to="/portfolio" className="block px-3 py-2 text-white hover:text-light transition duration-300">
-              {t('navbar.portfolio')}
-            </Link>
-            <Link to="/contact" className="block px-3 py-2 text-white hover:text-light transition duration-300">
-              {t('navbar.contact')}
-            </Link>
-          </div>
-        </motion.div>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+            className="md:hidden bg-primary shadow-lg overflow-hidden"
+          >
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.1 }}
+              >
+                <Link to="/" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.home') : 'Home'}
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.15 }}
+              >
+                <Link to="/services" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.services') : 'Services'}
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.2 }}
+              >
+                <Link to="/about" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.about') : 'About'}
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.25 }}
+              >
+                <Link to="/portfolio" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.portfolio') : 'Portfolio'}
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.3 }}
+              >
+                <Link to="/contact" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.contact') : 'Contact'}
+                </Link>
+              </motion.div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };

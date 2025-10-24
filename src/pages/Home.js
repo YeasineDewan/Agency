@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaPlay, FaPause, FaExpand, FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
+import { FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -187,7 +187,7 @@ const Home = () => {
                 <p className="text-gray-600 text-center leading-relaxed">{service.description}</p>
                 <div className="mt-6 text-center">
                   <Link
-                    to={`/services/${service.name.toLowerCase().replace(/\s+/g, '-')}`}
+                    to="/services"
                     className="inline-flex items-center text-primary font-semibold hover:text-secondary transition-colors duration-300"
                   >
                     Learn More <FaArrowRight className="ml-2" />
