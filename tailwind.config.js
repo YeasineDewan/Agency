@@ -4,7 +4,6 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-<<<<<<< HEAD
     extend: {
       colors: {
         primary: '#DD0303', // Deep red
@@ -13,9 +12,6 @@ module.exports = {
         light: '#FEF3E2', // Light cream
       },
     },
-=======
-    extend: {},
->>>>>>> d76fd9ed09ef001cbd65f20e029ce05b1fc00b6f
   },
   plugins: [],
 }
