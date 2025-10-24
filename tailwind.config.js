@@ -7,10 +7,10 @@ module.exports = {
 <<<<<<< HEAD
     extend: {
       colors: {
-        primary: '#B5828C',
-        secondary: '#E5989B',
-        accent: '#FFB4A2',
-        light: '#FFCDB2',
+        primary: '#DD0303', // Deep red
+        secondary: '#FA812F', // Orange
+        accent: '#FAB12F', // Golden yellow
+        light: '#FEF3E2', // Light cream
       },
     },
 =======
