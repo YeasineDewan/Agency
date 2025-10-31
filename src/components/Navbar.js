@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-primary shadow-lg fixed w-full z-50">
+    <nav className="bg-primary border-b border-secondary overflow-hidden fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -46,12 +46,16 @@ const Navbar = () => {
             <Link to="/contact" className="text-white hover:text-light transition duration-300">
               {t('navbar.contact')}
             </Link>
+            <Link to="/client-portal" className="text-white hover:text-light transition duration-300">
+              {t('navbar.clientPortal')}
+            </Link>
             <button
               onClick={toggleLanguage}
               className="bg-secondary text-white px-4 py-2 rounded-full hover:bg-accent transition duration-300 font-semibold"
             >
               {t('navbar.language')}
             </button>
+            
           </div>
           <div className="md:hidden flex items-center space-x-4">
             <button
@@ -60,6 +64,7 @@ const Navbar = () => {
             >
               {t ? t('navbar.language') : 'EN/BN'}
             </button>
+            
             <button
               onClick={toggleMenu}
               className="text-white hover:text-light focus:outline-none"
@@ -88,6 +93,15 @@ const Navbar = () => {
               >
                 <Link to="/" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
                   {t ? t('navbar.home') : 'Home'}
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.35 }}
+              >
+                <Link to="/client-portal" className="block px-3 py-2 text-white hover:text-light transition duration-300 rounded-md hover:bg-white/10">
+                  {t ? t('navbar.clientPortal') : 'Client Portal'}
                 </Link>
               </motion.div>
               <motion.div

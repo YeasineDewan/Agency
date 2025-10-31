@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 const Services = () => {
   const { t } = useTranslation();
 
-  const services = [
+  // Memoize services data to prevent unnecessary re-renders
+  const services = useMemo(() => [
     {
       name: t('services.videoEditing.name'),
       icon: '🎥',
@@ -78,16 +79,16 @@ const Services = () => {
         t('services.seo.features.technicalSeo'),
         t('services.seo.features.localSeo')
       ]
-    },
-  ];
+    }
+  ], [t]);
 
   return (
-    <div className="min-h-screen py-16">
+    <div className="min-h-screen pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -104,8 +105,8 @@ const Services = () => {
               key={service.name}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 group overflow-hidden"
+              transition={{ duration: 0.6, delay: index * 0.05 }}
+              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 group overflow-hidden mt-5 mb-5"
             >
               <div className="relative">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
@@ -133,7 +134,7 @@ const Services = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.6 }}
           className="text-center mt-16"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-4">

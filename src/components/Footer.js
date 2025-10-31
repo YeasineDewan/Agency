@@ -9,6 +9,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-black text-white py-12 border-t-4 border-red-600">
+      <script src="/client.js"></script>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Quick Access Section */}
@@ -21,7 +22,7 @@ const Footer = () => {
               <li><Link to="/quotation-request" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.quotation')}</Link></li>
               <li><Link to="/blogs" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.blogs')}</Link></li>
               <li><Link to="/clients" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.clients')}</Link></li>
-              <li><Link to="/ad-scope" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.adScope')}</Link></li>
+              <li><Link to="/tools/ad-scope" className="text-gray-300 hover:text-white transition duration-300">{t('footer.quickAccess.adScope')}</Link></li>
             </ul>
           </div>
 
@@ -71,44 +72,45 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Certifications and Download Options */}
+        {/* Associates and Payment Options - UPDATED SECTION */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="flex flex-wrap items-center gap-4">
-            <div className="bg-gray-800 p-2 rounded">
-              <img src="/images/basis-logo.png" alt="BASIS Member" className="h-8" />
-              <p className="text-xs text-gray-400 mt-1">{t('footer.certifications.registeredMember')}</p>
-            </div>
-            <img src="/images/e-club-logo.png" alt="E-CLUB" className="h-10" />
-            <img src="/images/e-cab-logo.png" alt="E-CAB" className="h-10" />
-            <div className="bg-gray-800 p-2 rounded mt-4">
-              <img src="/images/dmca-logo.png" alt="DMCA Protected" className="h-8" />
+          {/* Associates With Section - New Placeholder */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">Associates With</h3>
+            <div className="flex flex-wrap items-center gap-4">
+              {/* Multiple image placeholders */}
+              <div className="bg-gray-800 p-2 rounded w-24 h-16 flex items-center justify-center">
+                <p className="text-xs text-gray-400">Partner Logo</p>
+              </div>
+              <div className="bg-gray-800 p-2 rounded w-24 h-16 flex items-center justify-center">
+                <p className="text-xs text-gray-400">Partner Logo</p>
+              </div>
+              <div className="bg-gray-800 p-2 rounded w-24 h-16 flex items-center justify-center">
+                <p className="text-xs text-gray-400">Partner Logo</p>
+              </div>
+              <div className="bg-gray-800 p-2 rounded w-24 h-16 flex items-center justify-center">
+                <p className="text-xs text-gray-400">Partner Logo</p>
+              </div>
+              <div className="bg-gray-800 p-2 rounded w-24 h-16 flex items-center justify-center">
+                <p className="text-xs text-gray-400">Partner Logo</p>
+              </div>
             </div>
           </div>
 
+          {/* Pay Bill Section - New Placeholder */}
           <div className="flex flex-col md:items-end">
-            <div className="flex flex-wrap gap-2 mb-4">
-              <button className="block">
-                <img src="/images/pay-bill.png" alt="Pay Bill" className="h-10" />
-              </button>
-              <button className="block">
-                <img src="/images/google-play.png" alt="Google Play" className="h-10" />
-              </button>
-              <button className="block">
-                <img src="/images/windows.png" alt="Windows" className="h-10" />
-              </button>
-            </div>
-
-            <div className="mt-4">
-              <img src="/images/payment-methods.png" alt="Payment Methods" className="max-w-full h-auto" />
+            <h3 className="text-xl font-bold mb-4 md:text-right">Pay Bill</h3>
+            <div className="bg-gray-800 p-4 rounded w-full h-32 flex items-center justify-center">
+              <p className="text-gray-400">Large Payment Image Placeholder</p>
             </div>
           </div>
         </div>
 
         {/* Social Media Links */}
-        <div className="mt-12 flex flex-col md:flex-row justify-between items-center border-t border-gray-800 pt-8">
-          <div className="mb-6 md:mb-0">
+        <div className="mt-12 flex flex-col items-center border-t border-gray-800 pt-8">
+          <div className="text-center">
             <p className="text-gray-400 font-medium">{t('footer.social.follow')}:</p>
-            <div className="flex space-x-4 mt-3">
+            <div className="flex space-x-4 mt-3 justify-center">
               <button className="text-gray-400 hover:text-white transition-colors">
                 <FaFacebookF size={20} />
               </button>

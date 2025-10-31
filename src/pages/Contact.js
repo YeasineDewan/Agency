@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Map from '../components/Map';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -180,12 +181,10 @@ const Contact = () => {
               </motion.div>
             ))}
 
-            {/* Map Placeholder */}
+            {/* Google Map */}
             <div className="mt-8">
               <h3 className="text-lg font-semibold mb-4">Find Us</h3>
-              <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Interactive Map Placeholder</span>
-              </div>
+              <Map />
             </div>
           </motion.div>
         </div>

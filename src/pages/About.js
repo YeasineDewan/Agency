@@ -7,8 +7,8 @@ const About = () => {
 
   const team = [
     {
-      name: t('about.team.johnDoe.name'),
-      role: t('about.team.johnDoe.role'),
+      name: t('Sadiya Rahman'),
+      role: t('Digital Marketer'),
       image: 'https://via.placeholder.com/150',
       bio: t('about.team.johnDoe.bio')
     },
@@ -19,8 +19,8 @@ const About = () => {
       bio: t('about.team.janeSmith.bio')
     },
     {
-      name: t('about.team.mikeJohnson.name'),
-      role: t('about.team.mikeJohnson.role'),
+      name: t('Yeasine Dewan Shawon'),
+      role: t('Web Developer and Pentester'),
       image: 'https://via.placeholder.com/150',
       bio: t('about.team.mikeJohnson.bio')
     },
@@ -35,7 +35,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -6,7 +6,11 @@
     "about": "About",
     "portfolio": "Portfolio",
     "contact": "Contact",
-    "language": "বাংলা"
+    "adScopeTool": "Ad Scope Tool",
+    "clientPortal": "Client Portal",
+    "language": "বাংলা",
+    "darkMode": "Dark",
+    "lightMode": "Light"
   },
   "home": {
     "hero": {
@@ -265,10 +269,77 @@
     },
     "copyright": "© 2023 AgencyPro. All rights reserved."
   },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Meet our happy clients and see how we've helped businesses achieve their goals.",
+    "testimonial": "Testimonials",
+    "statistics": "Statistics",
+    "clientLanding": {
+      "title": "Client Portal",
+      "subtitle": "View your projects and statistics",
+      "signIn": "Sign In",
+      "register": "Register"
+    }
+  },
+  "clientPortal": {
+    "landing": {
+      "title": "Track Your Business Growth",
+      "subtitle": "View your content, marketing spend, and progress",
+      "signIn": "Sign In",
+      "register": "Register",
+      "features": {
+        "dashboard": "Dashboard",
+        "reports": "Reports",
+        "content": "Content",
+        "analytics": "Analytics"
+      }
+    },
+    "login": {
+      "title": "Client Login",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign In",
+      "noAccount": "Don't have an account?",
+      "register": "Register Now"
+    },
+    "register": {
+      "title": "Client Registration",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company Name",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "register": "Register",
+      "haveAccount": "Already have an account?",
+      "login": "Login"
+    },
+    "dashboard": {
+      "title": "Client Dashboard",
+      "welcome": "Welcome",
+      "overview": "Overview",
+      "statistics": "Statistics",
+      "recentActivities": "Recent Activities",
+      "quickLinks": "Quick Links",
+      "signOut": "Sign Out",
+      "totalContent": "Total Content",
+      "facebookSpending": "Facebook Ad Spending",
+      "activeProjects": "Active Projects",
+      "completedTasks": "Completed Tasks"
+    }
+  },
   "career": {
     "hero": {
       "title": "Join Our Team",
-      "subtitle": "Shape the future of digital innovation with us. We're looking for passionate individuals ready to make an impact."
+      "subtitle": "Shape the future of digital innovation with us. We're looking for passionate individuals ready to make an impact.",
+      "stats": {
+        "title": "Join Our Growing Team",
+        "subtitle": "We have {positions} exciting opportunities waiting for you",
+        "openPositions": "Open Positions",
+        "projectsCompleted": "Projects Completed",
+        "yearsExperience": "Years Experience"
+      }
     },
     "whyJoin": {
       "title": "Why Join AgencyPro?",
@@ -315,14 +386,31 @@
       ],
       "apply": "Apply Now"
     },
+    "search": {
+      "title": "Find Your Perfect Role",
+      "placeholder": "Search positions...",
+      "allTypes": "All Types",
+      "allLocations": "All Locations",
+      "showing": "Showing {filtered} of {total} positions",
+      "noResults": {
+        "title": "No positions found",
+        "description": "Try adjusting your search or filter criteria"
+      }
+    },
     "culture": {
       "title": "Our Culture",
-      "description": "At AgencyPro, we foster a collaborative and inclusive environment where every team member can thrive and contribute to our shared success."
+      "description": "At AgencyPro, we foster a collaborative and inclusive environment where every team member can thrive and contribute to our shared success.",
+      "values": {
+        "collaboration": "Collaboration",
+        "innovation": "Innovation",
+        "excellence": "Excellence"
+      }
     },
     "cta": {
       "title": "Ready to Join Us?",
       "subtitle": "Send us your resume and let's start a conversation about your future with AgencyPro.",
-      "button": "Apply Today"
+      "button": "Apply Today",
+      "exploreTools": "Explore Our Tools"
     }
   },
   "hiring": {
@@ -553,6 +641,384 @@
     "contact": {
       "title": "Contact Information",
       "content": "For questions about these Terms & Conditions, please contact us at legal@agencypro.com."
+    }
+  },
+  "applyForm": {
+    "title": "Apply for this Position",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "resume": "Upload Resume (PDF, DOC, DOCX)",
+    "coverLetter": "Cover Letter (Optional)",
+    "experience": "Years of Experience",
+    "portfolio": "Portfolio URL (Optional)",
+    "submit": "Submit Application",
+    "success": "Application submitted successfully!",
+    "error": "Error submitting application. Please try again."
+  },
+  "jobs": {
+    "webDeveloperLaravel": {
+      "title": "Web Developer (PHP Laravel)",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "We are seeking a skilled Web Developer proficient in PHP and Laravel to join our dynamic team. You will be responsible for developing robust, scalable web applications using modern frameworks and best practices.",
+      "responsibilities": [
+        "Develop and maintain web applications using PHP and Laravel framework",
+        "Collaborate with designers and backend developers to implement user interfaces",
+        "Write clean, efficient, and well-documented code",
+        "Participate in code reviews and contribute to team knowledge sharing",
+        "Optimize applications for maximum speed and scalability",
+        "Troubleshoot and debug issues in production environments"
+      ],
+      "requirements": [
+        "3+ years of experience in PHP development",
+        "Strong proficiency in Laravel framework",
+        "Experience with MySQL or other relational databases",
+        "Knowledge of HTML, CSS, JavaScript, and AJAX",
+        "Familiarity with version control systems (Git)",
+        "Understanding of RESTful APIs and web services",
+        "Experience with front-end frameworks like Vue.js or React is a plus"
+      ],
+      "benefits": [
+        "Competitive salary and performance bonuses",
+        "Health insurance and wellness programs",
+        "Professional development opportunities",
+        "Flexible work arrangements",
+        "Modern office with latest technology"
+      ]
+    },
+    "webDeveloperMERN": {
+      "title": "Web Developer (MERN Stack)",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Join our team as a MERN Stack Developer to build cutting-edge web applications. You'll work with MongoDB, Express.js, React.js, and Node.js to create innovative solutions for our clients.",
+      "responsibilities": [
+        "Develop full-stack web applications using MERN technologies",
+        "Design and implement RESTful APIs with Node.js and Express.js",
+        "Create responsive user interfaces with React.js",
+        "Work with MongoDB for database design and management",
+        "Collaborate with cross-functional teams to deliver high-quality products",
+        "Participate in agile development processes and sprint planning"
+      ],
+      "requirements": [
+        "2+ years of experience in full-stack development",
+        "Proficiency in JavaScript, Node.js, Express.js, React.js, and MongoDB",
+        "Experience with state management libraries (Redux, Context API)",
+        "Knowledge of RESTful API design and implementation",
+        "Familiarity with version control (Git) and CI/CD pipelines",
+        "Understanding of responsive design and cross-browser compatibility",
+        "Experience with cloud platforms (AWS, Heroku) is advantageous"
+      ],
+      "benefits": [
+        "Competitive compensation package",
+        "Health and dental insurance",
+        "Learning and development budget",
+        "Remote work options",
+        "Team building activities and events"
+      ]
+    },
+    "seoAnalyst": {
+      "title": "SEO Analyst",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "As an SEO Analyst, you'll play a crucial role in improving our clients' search engine rankings. You'll conduct keyword research, analyze website performance, and implement optimization strategies.",
+      "responsibilities": [
+        "Conduct comprehensive keyword research and analysis",
+        "Perform on-page and technical SEO audits",
+        "Monitor and report on website performance metrics",
+        "Implement SEO best practices across client websites",
+        "Collaborate with content and development teams for SEO integration",
+        "Stay updated with the latest SEO trends and algorithm changes"
+      ],
+      "requirements": [
+        "2+ years of experience in SEO or digital marketing",
+        "Proficiency with SEO tools (Google Analytics, SEMrush, Ahrefs)",
+        "Strong understanding of search engine algorithms and ranking factors",
+        "Experience with HTML, CSS, and basic website structure",
+        "Analytical mindset with excellent problem-solving skills",
+        "Knowledge of local SEO and mobile optimization",
+        "Familiarity with content management systems (WordPress, etc.)"
+      ],
+      "benefits": [
+        "Competitive salary with performance incentives",
+        "Professional certification support",
+        "Flexible working hours",
+        "Health insurance coverage",
+        "Opportunities for career advancement"
+      ]
+    },
+    "seoExpert": {
+      "title": "SEO Expert",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "We're looking for an experienced SEO Expert to lead our search optimization efforts. You'll develop and execute advanced SEO strategies to drive organic traffic and improve search rankings.",
+      "responsibilities": [
+        "Develop and implement comprehensive SEO strategies",
+        "Lead keyword research and competitive analysis projects",
+        "Manage and optimize large-scale SEO campaigns",
+        "Conduct technical SEO audits and implement fixes",
+        "Analyze performance data and provide actionable insights",
+        "Mentor junior SEO team members and contribute to knowledge sharing"
+      ],
+      "requirements": [
+        "5+ years of proven SEO experience",
+        "Expert-level knowledge of SEO tools and platforms",
+        "Experience with enterprise-level SEO campaigns",
+        "Strong analytical and strategic thinking skills",
+        "Proficiency in data analysis and reporting",
+        "Knowledge of advanced SEO techniques (schema markup, etc.)",
+        "Experience with link building and content marketing"
+      ],
+      "benefits": [
+        "High competitive salary and bonuses",
+        "Leadership development programs",
+        "Comprehensive health benefits",
+        "Flexible work environment",
+        "Conference attendance and training opportunities"
+      ]
+    },
+    "contentWriter": {
+      "title": "Content Writer",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Join our creative team as a Content Writer. You'll craft engaging, SEO-optimized content for websites, blogs, and marketing materials to help our clients connect with their audiences.",
+      "responsibilities": [
+        "Write high-quality, engaging content for various platforms",
+        "Research and incorporate SEO best practices into content",
+        "Collaborate with marketing and design teams on content strategies",
+        "Edit and proofread content for accuracy and clarity",
+        "Stay updated with content marketing trends and best practices",
+        "Manage content calendars and meet deadlines"
+      ],
+      "requirements": [
+        "2+ years of content writing experience",
+        "Strong command of English grammar and style",
+        "Knowledge of SEO principles and keyword research",
+        "Experience with content management systems",
+        "Ability to write for different tones and audiences",
+        "Proficiency in Microsoft Office or Google Workspace",
+        "Portfolio showcasing writing samples"
+      ],
+      "benefits": [
+        "Creative and collaborative work environment",
+        "Competitive salary and performance bonuses",
+        "Professional development opportunities",
+        "Flexible work arrangements",
+        "Health insurance and wellness programs"
+      ]
+    },
+    "contentCreator": {
+      "title": "Content Creator",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "As a Content Creator, you'll be responsible for developing innovative content strategies and producing multimedia content that captivates audiences and drives engagement.",
+      "responsibilities": [
+        "Develop content strategies aligned with brand objectives",
+        "Create engaging multimedia content (videos, graphics, social media posts)",
+        "Collaborate with cross-functional teams on content production",
+        "Analyze content performance and optimize for better results",
+        "Stay current with social media trends and platform algorithms",
+        "Manage content calendars and coordinate with external creators"
+      ],
+      "requirements": [
+        "3+ years of experience in content creation or digital marketing",
+        "Proficiency in content creation tools (Adobe Creative Suite, Canva)",
+        "Strong understanding of social media platforms and analytics",
+        "Experience with video editing software is a plus",
+        "Creative thinking and ability to generate innovative ideas",
+        "Excellent communication and collaboration skills",
+        "Portfolio demonstrating content creation skills"
+      ],
+      "benefits": [
+        "Dynamic and creative work environment",
+        "Competitive compensation with bonuses",
+        "Access to latest tools and software",
+        "Professional growth opportunities",
+        "Flexible working hours and remote options"
+      ]
+    },
+    "digitalMarketingSpecialist": {
+      "title": "Digital Marketing Specialist",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Drive digital marketing campaigns and strategies for our clients. You'll manage social media, PPC campaigns, and email marketing to boost online presence and engagement.",
+      "responsibilities": [
+        "Develop and execute digital marketing campaigns",
+        "Manage social media accounts and create engaging content",
+        "Optimize PPC campaigns for maximum ROI",
+        "Analyze campaign performance and provide insights",
+        "Collaborate with design and content teams",
+        "Stay updated with digital marketing trends"
+      ],
+      "requirements": [
+        "2+ years in digital marketing",
+        "Experience with social media platforms and tools",
+        "Knowledge of Google Ads and analytics",
+        "Strong analytical and creative skills",
+        "Proficiency in marketing automation tools",
+        "Understanding of SEO and content marketing"
+      ],
+      "benefits": [
+        "Competitive salary and incentives",
+        "Professional development support",
+        "Flexible work options",
+        "Health benefits",
+        "Team collaboration events"
+      ]
+    },
+    "uiuxDesigner": {
+      "title": "UI/UX Designer",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Create stunning user interfaces and experiences for web and mobile applications. You'll design intuitive, user-friendly interfaces that enhance user satisfaction.",
+      "responsibilities": [
+        "Design user interfaces for web and mobile applications",
+        "Conduct user research and usability testing",
+        "Create wireframes, prototypes, and mockups",
+        "Collaborate with developers to implement designs",
+        "Ensure designs are responsive and accessible",
+        "Stay updated with design trends and best practices"
+      ],
+      "requirements": [
+        "3+ years of UI/UX design experience",
+        "Proficiency in design tools (Figma, Adobe XD, Sketch)",
+        "Strong portfolio showcasing design projects",
+        "Knowledge of user-centered design principles",
+        "Understanding of responsive design",
+        "Experience with prototyping tools"
+      ],
+      "benefits": [
+        "Creative work environment",
+        "Competitive salary",
+        "Design tool subscriptions",
+        "Professional development",
+        "Flexible hours"
+      ]
+    },
+    "videoEditor": {
+      "title": "Video Editor",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Edit professional videos for clients, including cutting, color grading, sound design, and special effects. You'll work on various projects from commercials to social media content.",
+      "responsibilities": [
+        "Edit raw footage into polished videos",
+        "Apply color correction and grading",
+        "Incorporate sound design and music",
+        "Add special effects and animations",
+        "Collaborate with clients and team members",
+        "Meet project deadlines and quality standards"
+      ],
+      "requirements": [
+        "2+ years of video editing experience",
+        "Proficiency in Adobe Premiere Pro and After Effects",
+        "Knowledge of color grading and audio editing",
+        "Understanding of video formats and codecs",
+        "Creative eye for storytelling",
+        "Portfolio of video editing work"
+      ],
+      "benefits": [
+        "Creative and dynamic role",
+        "Competitive pay",
+        "Access to professional software",
+        "Team collaboration",
+        "Flexible work arrangements"
+      ]
+    },
+    "photoEditor": {
+      "title": "Photo Editor",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Retouch and manipulate photos for professional results. You'll work on product photography, portraits, and marketing materials to enhance visual appeal.",
+      "responsibilities": [
+        "Retouch and enhance photographs",
+        "Perform color correction and adjustments",
+        "Remove backgrounds and composite images",
+        "Prepare images for web and print",
+        "Collaborate with photographers and designers",
+        "Maintain high-quality standards"
+      ],
+      "requirements": [
+        "2+ years of photo editing experience",
+        "Proficiency in Adobe Photoshop",
+        "Knowledge of photo retouching techniques",
+        "Understanding of color theory and printing",
+        "Attention to detail",
+        "Portfolio of edited photos"
+      ],
+      "benefits": [
+        "Visual creative work",
+        "Competitive salary",
+        "Software tools provided",
+        "Professional growth",
+        "Flexible hours"
+      ]
+    },
+    "appDeveloper": {
+      "title": "App Developer",
+      "location": "Dhaka, Bangladesh",
+      "type": "Full-time",
+      "description": "Develop native and cross-platform mobile applications. You'll work on iOS and Android apps using modern technologies and frameworks.",
+      "responsibilities": [
+        "Develop mobile applications for iOS and Android",
+        "Implement UI/UX designs into functional apps",
+        "Integrate APIs and third-party services",
+        "Test and debug applications",
+        "Collaborate with design and backend teams",
+        "Optimize apps for performance"
+      ],
+      "requirements": [
+        "3+ years of mobile app development",
+        "Proficiency in Swift/Objective-C for iOS or Java/Kotlin for Android",
+        "Experience with cross-platform frameworks (React Native, Flutter)",
+        "Knowledge of app store deployment",
+        "Understanding of mobile UI/UX principles",
+        "Portfolio of published apps"
+      ],
+      "benefits": [
+        "Innovative tech environment",
+        "Competitive compensation",
+        "Latest device access",
+        "Professional development",
+        "Flexible work options"
+      ]
+    }
+  },
+  "adScopeTool": {
+    "title": "Ad Scope Tool",
+    "subtitle": "Analyze and optimize your advertising campaigns with our advanced Ad Scope Tool. Get insights into performance, audience reach, and budget efficiency.",
+    "features": {
+      "campaignAnalysis": "Campaign Analysis",
+      "audienceInsights": "Audience Insights",
+      "budgetOptimization": "Budget Optimization",
+      "performanceMetrics": "Performance Metrics",
+      "competitorAnalysis": "Competitor Analysis",
+      "roiCalculator": "ROI Calculator"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "title": "Connect Your Accounts",
+          "description": "Link your advertising accounts from Google, Facebook, or other platforms."
+        },
+        {
+          "title": "Analyze Data",
+          "description": "Our AI-powered tool analyzes your campaign data in real-time."
+        },
+        {
+          "title": "Get Insights",
+          "description": "Receive actionable insights and recommendations for optimization."
+        },
+        {
+          "title": "Optimize & Scale",
+          "description": "Implement changes and scale your successful campaigns."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start Optimizing Today",
+      "subtitle": "Unlock the full potential of your advertising budget with data-driven insights.",
+      "button": "Try Ad Scope Tool"
     }
   }
 }

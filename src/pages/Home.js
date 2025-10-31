@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { FaEye, FaStar, FaArrowRight } from 'react-icons/fa';
+import SEO from '../components/SEO';
+import { logEvent } from '../utils/analytics';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -69,6 +71,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO title="AgencyPro – Home" description="Professional digital services: web development, marketing, video editing, SEO and more." />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary via-secondary to-accent text-white py-32 overflow-hidden">
         {/* Animated Background Elements */}
@@ -79,7 +82,7 @@ const Home = () => {
           <div className="absolute top-1/2 right-10 w-20 h-20 bg-accent opacity-20 rounded-full animate-bounce" style={{animationDelay: '0.5s'}}></div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -87,7 +90,7 @@ const Home = () => {
             className="text-center"
           >
             <motion.h1
-              className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight bg-gradient-to-r from-white via-light to-accent bg-clip-text text-transparent"
+              className="text-5xl md:text-7xl font-extrabold mb-6 leading-snug md:leading-tight bg-gradient-to-r from-accent via-light to-white bg-clip-text text-transparent"
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -111,6 +114,7 @@ const Home = () => {
               <Link
                 to="/contact"
                 className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-light hover:text-secondary transition-all duration-300 shadow-2xl hover:shadow-primary/25 transform hover:scale-105 hover:-translate-y-1"
+                onClick={() => logEvent('cta_click', { cta: 'hero_contact' })}
               >
                 {t('home.hero.cta')}
               </Link>

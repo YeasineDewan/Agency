@@ -10,7 +10,10 @@
     "array.prototype.findlastindex": "^1.2.6",
     "autoprefixer": "^10.4.14",
     "cross-spawn": "^7.0.6",
+    "docx": "^9.5.1",
+    "file-saver": "^2.0.5",
     "framer-motion": "^10.16.16",
+    "google-map-react": "^2.2.5",
     "i18next": "^25.6.0",
     "i18next-browser-languagedetector": "^8.2.0",
     "postcss": "^8.4.24",
@@ -20,13 +23,12 @@
     "react-i18next": "^16.1.5",
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
     "tailwindcss": "^3.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "react-scripts": "^5.0.1"
   }
 }
